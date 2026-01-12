@@ -4,8 +4,8 @@ Dans ce projet, nous allons mettre en pratique ce que nous avons appris dans les
 
 ## Objectifs
 
-- Créer un site à partir d'un wireframe
-- Adapter ce site pour le rendre responsif pour smartphones, tablettes et laptop
+- Créer un site à partir d'un wireframe.
+- Adapter ce site pour le rendre responsif pour smartphones, tablettes et desktop.
 
 ## Technologies
 
@@ -21,6 +21,14 @@ Dans ce projet, nous allons mettre en pratique ce que nous avons appris dans les
   - Partie Résultats, montrant les résultats qu'ils ont obtenus
   - Partie Contact Us, contenant un bouton "Call to Action" et 3 champs label
 - Footer avec informations de contact
+
+## Requirements
+
+- On doit gérer 3 tailles d'écran différentes (Desktop, Tablette et Smartphone)
+- La page doit changer à l'affichage de la version mobile si la taille de l'écran est inférieure à 480px
+- Le contenu principal du site doit être de max 1000px et centré
+- Les liens prennent la couleur #FF6565 quand ils sont survolés ou actifs
+- L'opacité des boutons doit être de 0.9 quand ils sont survolés ou actifs
 
 ## Visuels
 
