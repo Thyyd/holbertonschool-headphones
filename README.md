@@ -24,15 +24,15 @@ Dans ce projet, nous allons mettre en pratique ce que nous avons appris dans les
 
 ## Visuels
 
-<h1 align="center">
-  Visuel pour Desktop
-</h1>
-<img align="center" src="Archives/01_headphones_desktop@2x.png" width="50%" />
-<h1>
-  Visuel pour Tablette
-</h1>
-<img align="center" src="Archives/01_headphones_tablet@2x.png" width="200" />
-<h1>
-  Visuel pour Mobile
-</h1>
-<img align="center" src="Archives/01_headphones_mobile@2x.png" width="200" />
+<h1 align="center"> Visuel pour Desktop </h1>
+<p align="center">
+  <img  src="Archives/01_headphones_desktop@2x.png" width="50%" />
+</p>
+<h1 align="center"> Visuel pour Tablette </h1>
+<p align="center">
+  <img  src="Archives/01_headphones_tablet@2x.png" width="200" />
+</p>
+<h1 align="center"> Visuel pour Mobile </h1>
+<p align="center">
+  <img  src="Archives/01_headphones_mobile@2x.png" width="200" />
+</p>
