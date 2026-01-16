@@ -372,7 +372,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
  }
 
  /* Media Query pour Desktop */
- @media (min-width: 993px) {
+ @media (min-width: 768px) {
     .Hero-container .Section-Title {
         margin-top: 18.5rem;
     }
@@ -439,6 +439,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     line-height: var(--line-height);
  }
 
+ /* Media Query pour Tablette */
  @media (min-width: 481px) {
     .What-we-do-icon {
     color: var(--color-hover);
@@ -463,7 +464,8 @@ body:has(.menu-btn:checked) .Hero-Background::before {
 
  }
 
- @media (min-width: 993px) {
+ /* Media Query pour Desktop */
+ @media (min-width: 768px) {
 
     .What-we-do-img {
         display: flex;
@@ -572,7 +574,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     margin-top: -10rem;
  }
 
-
+ /* Media Query pour Tablette */
  @media (min-width: 481px) {
 
     .Results-stats {
@@ -597,7 +599,8 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     }
  }
 
- @media (min-width: 993px) {
+ /* Media Query pour Tablette */
+ @media (min-width: 768px) {
     .Results-stats {
         display: flex;
         flex-wrap: nowrap;
