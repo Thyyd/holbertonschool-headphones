@@ -108,7 +108,7 @@
  .header-logo {
     margin: auto;
 }
-
+ /* Media Query pour Tablette et Desktop */
  @media (min-width: 481px) {
     .header-container {
         flex-wrap: nowrap;
@@ -162,6 +162,7 @@
     margin-bottom: 2rem;
 }
 
+ /* Media Query pour Tablette et Desktop */
  @media (min-width: 481px) {
     .navbar-menu {
         display: flex;
@@ -266,6 +267,7 @@
     top: 0;
   }
 
+ /* Media Query pour Tablette et Desktop */
  @media (min-width: 481px) {
     .header .menu-icon {
         display: none;
@@ -345,6 +347,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     justify-self: center;
  }
 
+ /* Media Query pour Tablette */
  @media (min-width: 481px) {
     .Hero-Background::before {
         top: -4rem;
@@ -366,7 +369,8 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     }
  }
 
- @media (min-width: 993px) {
+ /* Media Query pour Desktop */
+ @media (min-width: 768px) {
     .Hero-container .Section-Title {
         margin-top: 18.5rem;
     }
@@ -433,6 +437,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     line-height: var(--line-height);
  }
 
+ /* Media Query pour Tablette */
  @media (min-width: 481px) {
     .What-we-do-icon {
     color: var(--color-hover);
@@ -464,8 +469,8 @@ body:has(.menu-btn:checked) .Hero-Background::before {
 
  }
 
- @media (min-width: 993px) {
-
+ /* Media Query pour Desktop */
+ @media (min-width: 768px) {
     .What-we-do-img {
         display: flex;
         flex-direction: row;
