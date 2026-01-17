@@ -624,6 +624,9 @@ body:has(.menu-btn:checked) .Hero-Background::before {
  }
 
  .Contact-container .Section-Title {
+    font-family: var(--font-main);
+    font-weight: var(--font-weight-semibold);
+    font-size: 32px;
     margin-bottom: 4rem;
  }
 
@@ -641,8 +644,12 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     position: relative;
 }
 
- .Name, .Email, .Message {
-   margin-bottom: 3rem;
+ .Name, .Email {
+    margin-bottom: 3rem;
+ }
+
+ .Message {
+    margin-bottom: 3.5rem;
  }
 
  .form-group input,
