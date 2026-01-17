@@ -279,7 +279,7 @@
 
 /************************************************** 3. SECTION **************************************************/
 
-  /* Section Hero */
+  /***** Section Hero *****/
 
  .Section-Hero {
     position: relative;
@@ -389,7 +389,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     }
  }
 
-  /* Section What we do */
+  /***** Section What we do *****/
 
  .What-we-do-container {
     display: flex;
@@ -484,7 +484,7 @@ body:has(.menu-btn:checked) .Hero-Background::before {
     }
  }
 
-  /* Section Our results speaks for themself */
+  /***** Section Our results speaks for themself *****/
 
  .Results {
     position: relative;
@@ -614,17 +614,21 @@ body:has(.menu-btn:checked) .Hero-Background::before {
  }
 
 
- /* Section Contact us */
+ /***** Section Contact us *****/
 
  .Contact-container {
     width: 21rem;
     margin: 0 auto;
+    margin-top: 7rem;
+    margin-bottom: 8rem;
  }
 
  .Contact-container .Section-Title {
     margin-bottom: 4rem;
  }
 
+
+ /* Forms */
  fieldset {
     display: flex;
     flex-direction: column;
