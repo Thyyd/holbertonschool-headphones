@@ -6,7 +6,7 @@
     <title>Headphones - Homepage</title>
     <link rel="icon" type="image/png" href="Images/favicon.png">
     <link rel="stylesheet" href="holberton_school-icon/style.css">
-    <link rel='stylesheet' href='3-styles.css'>
+    <link rel='stylesheet' href='styles.css'>
   </head>
 
   <body>
@@ -150,40 +150,39 @@
           <div class="Contact-container">
             <h1 class="Section-Title">Contact us</h1>
             <form action="#">
-                <fieldset>
-                  <!-- Label Name -->
-                  <div class="form-group Name">
-                    <label for="your-name">Name</label>
-                    <div class="form-field">
-                      <span class="form-field-container">
-                        <input type="text" name="your-name" id="your-name" placeholder="e.g. Tempest Limule" pattern="^[A-Za-zÀ-ž]+([-' ][A-Za-zÀ-ž]+)* [A-Za-zÀ-ž]+([-' ][A-Za-zÀ-ž]+)*$" autocomplete="name" required>
-                      </span>
-                    </div>
+              <fieldset>
+                <!-- Label Name -->
+                <div class="form-group Name">
+                  <label for="your-name">Name</label>
+                  <div class="form-field">
+                    <span class="form-field-container">
+                      <input type="text" name="your-name" id="your-name" placeholder="e.g. Tempest Limule" pattern="^[A-Za-zÀ-ž]+([-' ][A-Za-zÀ-ž]+)* [A-Za-zÀ-ž]+([-' ][A-Za-zÀ-ž]+)*$" autocomplete="name" required>
+                    </span>
                   </div>
+                </div>
 
-                  <!-- Label Email -->
-                  <div class="form-group Email">
-                    <label for="your-email">Email</label>
-                    <div class="form-field">
-                      <span class="form-field-container">
-                        <input type="email" name="your-email" id="your-email" placeholder="e.g. fallen.albaz@gmail.com" autocomplete="email" required>
-                      </span>
-                    </div>
+                <!-- Label Email -->
+                <div class="form-group Email">
+                  <label for="your-email">Email</label>
+                  <div class="form-field">
+                    <span class="form-field-container">
+                      <input type="email" name="your-email" id="your-email" placeholder="e.g. fallen.albaz@gmail.com" autocomplete="email" required>
+                    </span>
                   </div>
-                </fieldset>
+                </div>
+              </fieldset>
 
-                <!-- Label Your message -->
-                <fieldset>
-                  <div class="form-group Message">
-                    <label for="your-message">Your message</label>
-                    <div class="form-field">
-                      <span class="form-field-container">
-                        <textarea name="your-message" id="your-message" placeholder="Write your comment here" minlength="10" required></textarea>
-                      </span>
-                    </div>
+              <!-- Label Your message -->
+              <fieldset>
+                <div class="form-group Message">
+                  <label for="your-message">Your message</label>
+                  <div class="form-field">
+                    <span class="form-field-container">
+                      <textarea name="your-message" id="your-message" placeholder="Write your comment here" minlength="10" required></textarea>
+                    </span>
                   </div>
-                </fieldset>
-
+                </div>
+              </fieldset>
             </form>
             <button class="Button">CALL TO ACTION</button>
           </div>
@@ -193,7 +192,25 @@
 
     <!- Footer ->
     <footer>
-      
+      <div class="container">
+        <div class="Footer-container">
+          <div class="footer-logo">
+            <img src="Images/logo_headphones.png" alt="Headphones Logo" width="161" height="32">
+          </div>
+          <div class="socials">
+            <a href="https://twitter.com/holbertonschool/" class="social-link">
+              <span class="holberton_school-icon-ic_facebook"></span>
+            </a>
+            <a href="https://www.facebook.com/HolbertonSchool/" class="social-link">
+              <span class="holberton_school-icon-ic_twitter"></span>
+            </a>
+            <a href="https://www.instagram.com/holbertonschool/" class="social-link">
+              <span class="holberton_school-icon-ic_instagram"></span>
+            </a>
+          </div>
+          <p class="footer-copyright">©headphones 2020</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
